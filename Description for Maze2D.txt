@@ -1,0 +1,29 @@
+Game 		: Maze2D
+Created by 	: Arief Alfareza Tarmudi_1305491
+
+Version 0.5
+
+- Implementasi probabilitas dan pencarian jalur (pathfinding).
+- Menambah fitur health.
+- Pathfinding menggunakan algoritma A* (A star).
+- Error fixing.
+
+Player diberi health 100.
+ada 3 musuh dalam game: spider, skeleton dan ghost.
+
+- spider : 
+	agresivitas 0.25 (mengejar player dengan probabilitas 0.25)
+	jika player terkena musuh ini maka health berkurang 2.
+
+- skeleton : 
+	aggresivitas 0.5 (mengejar player dengan probabilitas 0.5)
+	jika player terkena musuh ini maka health berkurang 5.
+
+- ghost	:
+	akan muncul ketika player berhasil mendapatkan kunci dan akan terus mengejar 
+	player dengan menggunakan jalur terpendek. tidak dapat dikalahkan.
+	mengurangi health player sebesar 10 jika terkena musuh ini.
+
+Ketika kunci didapat, maka pintu akan terbuka dan ghost akan muncul meneror player.
+Jika player kehabisan health maka permainan selesai.
+Player harus menyentuh katrol untuk bisa melewati air.
