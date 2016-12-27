@@ -6,6 +6,8 @@
   <NewExtensions/>
   <sounds name="sound"/>
   <sprites name="sprites">
+    <sprite>sprites\spr_oldman</sprite>
+    <sprite>sprites\spr_shadow</sprite>
     <sprite>sprites\spr_heart</sprite>
     <sprite>sprites\spr_jump</sprite>
     <sprite>sprites\sp_simpang</sprite>
@@ -44,6 +46,9 @@
     <font>fonts\font_score</font>
   </fonts>
   <objects name="objects">
+    <object>objects\obj_oldman</object>
+    <object>objects\obj_shadow</object>
+    <object>objects\obj_jump</object>
     <object>objects\obj_path</object>
     <object>objects\obj_ghost</object>
     <object>objects\obj_controller</object>
@@ -63,6 +68,7 @@
     <object>objects\obj_tokoh</object>
   </objects>
   <rooms name="rooms">
+    <room>rooms\rm_start</room>
     <room>rooms\rm_stage1</room>
     <room>rooms\rm_stage2</room>
   </rooms>

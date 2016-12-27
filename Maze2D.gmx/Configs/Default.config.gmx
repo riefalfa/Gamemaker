@@ -4,11 +4,16 @@
     <option_aborterrors>false</option_aborterrors>
     <option_android_GPU_device>0</option_android_GPU_device>
     <option_android_adcolony_ads>false</option_android_adcolony_ads>
+    <option_android_adcolony_enable_V4VC>false</option_android_adcolony_enable_V4VC>
     <option_android_advertising_enable>false</option_android_advertising_enable>
     <option_android_advertising_key></option_android_advertising_key>
     <option_android_advertising_type>MoPub</option_android_advertising_type>
     <option_android_amazon_ads>false</option_android_amazon_ads>
     <option_android_amazon_game_circle>false</option_android_amazon_game_circle>
+    <option_android_amazon_gc_achievements>true</option_android_amazon_gc_achievements>
+    <option_android_amazon_gc_leaderboards>true</option_android_amazon_gc_leaderboards>
+    <option_android_amazon_gc_whispersync>false</option_android_amazon_gc_whispersync>
+    <option_android_amazon_iap>false</option_android_amazon_iap>
     <option_android_apk_expansion>false</option_android_apk_expansion>
     <option_android_arch_armv5>true</option_android_arch_armv5>
     <option_android_arch_armv7>true</option_android_arch_armv7>
@@ -32,6 +37,7 @@
     <option_android_google_play_cloud_save_enable>false</option_android_google_play_cloud_save_enable>
     <option_android_google_play_id></option_android_google_play_id>
     <option_android_google_tracking_id></option_android_google_tracking_id>
+    <option_android_iap_suppress_toast>false</option_android_iap_suppress_toast>
     <option_android_icade_support>true</option_android_icade_support>
     <option_android_icon_hdpi>Configs\Default\android\icons\icon_hdpi.png</option_android_icon_hdpi>
     <option_android_icon_ldpi>Configs\Default\android\icons\icon_ldpi.png</option_android_icon_ldpi>
@@ -43,6 +49,7 @@
     <option_android_interpolate>true</option_android_interpolate>
     <option_android_licensing_enable>false</option_android_licensing_enable>
     <option_android_licensing_key></option_android_licensing_key>
+    <option_android_lint>true</option_android_lint>
     <option_android_major_version>1</option_android_major_version>
     <option_android_min_sdk_version>9</option_android_min_sdk_version>
     <option_android_minor_version>0</option_android_minor_version>
@@ -59,11 +66,15 @@
     <option_android_package_domain>com</option_android_package_domain>
     <option_android_package_product>Maze2D</option_android_package_product>
     <option_android_permission_flags>8</option_android_permission_flags>
+    <option_android_pocketchange_enable>false</option_android_pocketchange_enable>
+    <option_android_pocketchange_id></option_android_pocketchange_id>
+    <option_android_pocketchange_test_enable>false</option_android_pocketchange_test_enable>
     <option_android_portrait_splash_png>Configs\Default\android\portrait_splash.png</option_android_portrait_splash_png>
     <option_android_push_enable>false</option_android_push_enable>
     <option_android_push_id></option_android_push_id>
     <option_android_scale>-1</option_android_scale>
     <option_android_set_device_id></option_android_set_device_id>
+    <option_android_sleep_margin>4</option_android_sleep_margin>
     <option_android_splash_png>Configs\Default\android\splash.png</option_android_splash_png>
     <option_android_splash_time>0</option_android_splash_time>
     <option_android_support_lib_version>23.1.1</option_android_support_lib_version>
@@ -114,6 +125,7 @@
     <option_androidfire_large_icon_png>Configs\Default\amazonfire\icons\large_icon.png</option_androidfire_large_icon_png>
     <option_androidfire_licensing_enable>false</option_androidfire_licensing_enable>
     <option_androidfire_licensing_key></option_androidfire_licensing_key>
+    <option_androidfire_lint>true</option_androidfire_lint>
     <option_androidfire_major_version>1</option_androidfire_major_version>
     <option_androidfire_min_sdk_version>9</option_androidfire_min_sdk_version>
     <option_androidfire_minor_version>0</option_androidfire_minor_version>
@@ -182,6 +194,7 @@
     <option_androidtv_large_icon_png>Configs\Default\androidtv\icons\large_icon.png</option_androidtv_large_icon_png>
     <option_androidtv_licensing_enable>false</option_androidtv_licensing_enable>
     <option_androidtv_licensing_key></option_androidtv_licensing_key>
+    <option_androidtv_lint>true</option_androidtv_lint>
     <option_androidtv_major_version>1</option_androidtv_major_version>
     <option_androidtv_minor_version>0</option_androidtv_minor_version>
     <option_androidtv_moga>false</option_androidtv_moga>
@@ -256,7 +269,9 @@
     <option_html5_usebuiltinparticles>true</option_html5_usebuiltinparticles>
     <option_html5_usesplash>false</option_html5_usesplash>
     <option_icon>nil</option_icon>
+    <option_in_app_purchase_enable>false</option_in_app_purchase_enable>
     <option_in_app_purchase_sandbox_mode>false</option_in_app_purchase_sandbox_mode>
+    <option_in_app_purchase_server_url></option_in_app_purchase_server_url>
     <option_information></option_information>
     <option_interpolate>true</option_interpolate>
     <option_ios_adcolony_enable_V4VC>false</option_ios_adcolony_enable_V4VC>
@@ -312,6 +327,7 @@
     <option_ios_set_device_id></option_ios_set_device_id>
     <option_ios_splash_png>Configs\Default\ios\splash.png</option_ios_splash_png>
     <option_ios_splash_time>0</option_ios_splash_time>
+    <option_ios_team_id></option_ios_team_id>
     <option_ios_texture_page>1024</option_ios_texture_page>
     <option_ios_use_test_ads>false</option_ios_use_test_ads>
     <option_lastchanged></option_lastchanged>
@@ -345,6 +361,7 @@
     <option_mac_copyright_info>(c)2012 CompanyName Ltd...</option_mac_copyright_info>
     <option_mac_create_app_store>true</option_mac_create_app_store>
     <option_mac_display_name>Maze2D</option_mac_display_name>
+    <option_mac_enable_retina>false</option_mac_enable_retina>
     <option_mac_enable_steam>false</option_mac_enable_steam>
     <option_mac_fullscreen>false</option_mac_fullscreen>
     <option_mac_icon_png>Configs\Default\mac\icon512.png</option_mac_icon_png>
@@ -379,6 +396,7 @@
     <option_ps3_revision_version>0</option_ps3_revision_version>
     <option_ps3_scale>-1</option_ps3_scale>
     <option_ps3_texture_page>2048</option_ps3_texture_page>
+    <option_ps3_version>01.00</option_ps3_version>
     <option_ps4_build_version>0</option_ps4_build_version>
     <option_ps4_displaycursor>false</option_ps4_displaycursor>
     <option_ps4_interpolate>true</option_ps4_interpolate>
@@ -410,7 +428,7 @@
     <option_savekey>true</option_savekey>
     <option_scale>-1</option_scale>
     <option_scaleprogress>true</option_scaleprogress>
-    <option_sci_UseSCI>false</option_sci_UseSCI>
+    <option_sci_UseSCI>0</option_sci_UseSCI>
     <option_sci_serverLocation></option_sci_serverLocation>
     <option_screenkey>true</option_screenkey>
     <option_screenshotkey>true</option_screenshotkey>
@@ -446,6 +464,20 @@
     <option_tizen_splash_png>Configs\Default\tizen\splash.png</option_tizen_splash_png>
     <option_tizen_texture_page>1024</option_tizen_texture_page>
     <option_tizen_usesplash>false</option_tizen_usesplash>
+    <option_tvos_app_id></option_tvos_app_id>
+    <option_tvos_build_version>0</option_tvos_build_version>
+    <option_tvos_certificate></option_tvos_certificate>
+    <option_tvos_display_name>Maze2D</option_tvos_display_name>
+    <option_tvos_icon_1280>Configs\Default\tvos\icons\icon1280.png</option_tvos_icon_1280>
+    <option_tvos_icon_400>Configs\Default\tvos\icons\icon400.png</option_tvos_icon_400>
+    <option_tvos_interpolate>true</option_tvos_interpolate>
+    <option_tvos_major_version>1</option_tvos_major_version>
+    <option_tvos_minor_version>0</option_tvos_minor_version>
+    <option_tvos_scale>-1</option_tvos_scale>
+    <option_tvos_splash_png>Configs\Default\tvos\splash.png</option_tvos_splash_png>
+    <option_tvos_splash_time>0</option_tvos_splash_time>
+    <option_tvos_texture_page>2048</option_tvos_texture_page>
+    <option_use_fast_collision>false</option_use_fast_collision>
     <option_use_new_audio>true</option_use_new_audio>
     <option_variableerrors>false</option_variableerrors>
     <option_version>100</option_version>
