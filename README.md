@@ -5,7 +5,7 @@ Game Descriptions
 Name    : Maze 2D
 Version : 0.7
 
-Link for Demo :
+Link for Demo : https://youtu.be/EZL5NbO0_Oc
 
 Link for Sprite : http://yticamps.com/ccooksey/Maze%20-%20Platform/
 
