@@ -13,15 +13,15 @@ Story :
   di dalam sebuah goa, dimana di dalam goa tersebut banyak rintangan yang 
   sudah menanti sang petualang.
   
-  Namun sebelum sang petualang bisa masuk ke dalam gua tersebut, dia harus 
+  Namun sebelum sang petualang bisa masuk ke dalam goa tersebut, dia harus 
   mendapatkan kunci dikarenakan gua tersebut disegel agar tidak sembarang orang
   bisa masuk ke dalamnya.
   
-  Di depan gua itu, berdiri orang tua sebagai juru kunci gua itu. Sang petualang 
+  Di depan gua itu, berdiri orang tua sebagai juru kunci goa itu. Sang petualang 
   harus mengalahkannya dalam sebuah mini-game (Tic Tac Toe) untuk mendapatkan kunci
-  gua daripadanya. 
+  goa daripadanya. 
   
-  Tetapi itu semua tidak berakhir begitu saja, di dalam gua terdapat labirin dimana
+  Tetapi itu semua tidak berakhir begitu saja, di dalam goa terdapat labirin dimana
   banyak sekali musuh dan jebakan sudah menantinya. Apakah sang petualang dapat 
   melewati rintangan demi rintangan untuk mendapatkan harta karun??
   
@@ -60,7 +60,7 @@ Implementasi Minimax (Update berikutnya) :
     Minimax akan diimplementasikan pada minigame ketika sang petualang bertemu orang tua. 
     Disana sang petualang diharuskan mengalahkan sang juru kunci dalam permainan tic-tac-toe.
     Sang petualang diberi kesempatan 3 kali untuk mengalahkan juru kunci, dan jika dia berhasil
-    mengalahkannya maka dia akan diberi kunci untuk membuka segel dari gua dimana harta karun terletak.
+    mengalahkannya maka dia akan diberi kunci untuk membuka segel dari goa dimana harta karun terletak.
     
     
     
