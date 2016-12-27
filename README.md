@@ -59,7 +59,8 @@ Musuh  :
 
 Implementasi Minimax (Update berikutnya) :
 
-    Minimax akan diimplementasikan pada minigame ketika sang petualang bertemu orang tua. 
+    Minimax akan diimplementasikan pada minigame ketika sang petualang bertemu orang tua yang
+    berperan sebagai juru kunci dari goa tersebut.
     Disana sang petualang diharuskan mengalahkan sang juru kunci dalam permainan tic-tac-toe.
     Sang petualang diberi kesempatan 3 kali untuk mengalahkan juru kunci, dan jika dia berhasil
     mengalahkannya maka dia akan diberi kunci untuk membuka segel dari goa dimana harta karun terletak.
